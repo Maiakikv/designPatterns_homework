@@ -25,7 +25,7 @@ public class PracticeTest extends BaseTest {
     }
 
 
-    @Flaky
+
     @Test(description = "test")
     @Description("click on forms, chlick on practice forms, fill the form, submit and ensure, that all values are correct")
     @Severity(SeverityLevel.MINOR)
