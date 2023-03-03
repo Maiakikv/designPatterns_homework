@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('build') {
           steps {
-            sh 'bat \'mvn clean test\''
+            bat 'mvn clean test'
           }
         }
 
