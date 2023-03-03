@@ -11,7 +11,7 @@ pipeline {
 
         stage('maven version') {
           steps {
-            sh 'mvn --version'
+            bat 'mvn --version'
           }
         }
 
