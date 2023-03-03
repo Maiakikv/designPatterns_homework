@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('build') {
           steps {
-            sh 'mvn -Dmaven.test.failure.ignore=true install'
+            sh 'bat \'mvn clean test\''
           }
         }
 
